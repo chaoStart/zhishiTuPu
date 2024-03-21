@@ -3,7 +3,7 @@ import * as echarts from 'echarts'
 import $ from 'jquery';
 import './App.css'
 // 2024年第一次提交
-//要去科远了
+//张淑玉
 export default class App extends Component {
   constructor(props) {
     super(props);
