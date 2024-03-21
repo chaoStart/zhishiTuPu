@@ -13,11 +13,11 @@ export default class App extends Component {
   };
 
   componentDidMount = () => {
-    fetch('http://localhost:3000/data/asset/data/flare.json')
-      .then(response => response.json())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error loading JSON file:', error));
-    console.log('获取数据:',)
+    // fetch('http://localhost:3000/data/asset/data/flare.json')
+    //   .then(response => response.json())
+    //   .then(data => console.log(data))
+    //   .catch(error => console.error('Error loading JSON file:', error));
+    console.log('获取数据:', '运行到这里了')
     this.ChartInit();
   }
   componentDidUpdate = () => {
