@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import * as echarts from 'echarts'
 import $ from 'jquery';
 import './App.css'
-// 2024年第一次
+// 2024年算是撞到铁板了
 export default class App extends Component {
   constructor(props) {
     super(props);
